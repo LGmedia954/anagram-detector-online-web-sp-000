@@ -7,7 +7,6 @@ def initialize(word)
 end
 
 def match(array)
-  
     if %w(array).split == %w(array).sort
       return word
     else
