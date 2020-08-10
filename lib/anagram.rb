@@ -11,7 +11,7 @@ def anagram_detector(array)
     if %w(array).split == %w(array).sort
       return word
     else
-      return 
+      nil
 end
 end
 end
