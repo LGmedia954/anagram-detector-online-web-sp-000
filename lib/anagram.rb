@@ -7,7 +7,8 @@ def initialize(word)
 end
 
 def match(array)
-    array.select %w(array).split == %w(array).sort
+    array.select do |w|
+    %w(array).split == %w(array).sort
      
 end
 
