@@ -8,8 +8,7 @@ end
 
 def match(array)
     array.select do |w|
-    %w(array).split == %w(array).sort
-     
+   w.split("").sort == @word.split("").sort
 end
 
 end
