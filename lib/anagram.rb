@@ -6,7 +6,7 @@ def initialize(word)
   @word = word
 end
 
-def anagram_detector(array)
+def match(array)
   
     if %w(array).split == %w(array).sort
       return word
