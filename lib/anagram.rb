@@ -8,7 +8,7 @@ end
 
 def anagram_detector(array)
   words.match.do |w|
-    if w.match
+    if %w(array)
 
 
 
