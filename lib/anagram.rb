@@ -9,7 +9,7 @@ end
 def anagram_detector(array)
   words.match.do |w|
     if %w(array).split == %w(array).sort
-      return 
+      return word
 end
 end
 end
