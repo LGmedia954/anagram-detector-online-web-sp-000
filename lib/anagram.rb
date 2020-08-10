@@ -10,6 +10,8 @@ def anagram_detector(array)
   words.match.do |w|
     if %w(array).split == %w(array).sort
       return word
+    else
+      return 
 end
 end
 end
