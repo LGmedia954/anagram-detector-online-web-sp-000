@@ -7,10 +7,8 @@ def initialize(word)
 end
 
 def match(array)
-    if %w(array).split == %w(array).sort
-      return word
-    else
-      nil
+    array.select %w(array).split == %w(array).sort
+     
 end
-end
+
 end
